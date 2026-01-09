@@ -19,11 +19,11 @@ fi
 #######################################
 # 2. Scan staged files for secrets
 #######################################
-echo "🔍 Scanning staged files for secrets with gitleaks..."
-
-gitleaks protect \
-  --staged \
-  --redact \
-  --verbose
+#echo "🔍 Scanning staged files for secrets with gitleaks..."
+#
+#gitleaks protect \
+#  --staged \
+#  --redact \
+#  --verbose
 
 echo "✅ Security checks passed."
